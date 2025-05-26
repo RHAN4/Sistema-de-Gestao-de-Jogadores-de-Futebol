@@ -1,0 +1,19 @@
+/* src\pages\BemVindo\styles.css */
+
+.pagina-inicial {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 600px) {
+    .pagina-inicial {
+        padding: 10px;
+    }
+}

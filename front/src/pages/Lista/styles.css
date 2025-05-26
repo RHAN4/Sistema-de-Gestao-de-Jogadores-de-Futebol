@@ -1,0 +1,48 @@
+/* src\pages\Lista\styles.css */
+
+.pagina-lista-usuarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 32px;
+    background: linear-gradient(135deg, #e10600, #000000);
+}
+  
+.pagina-lista-usuarios .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+    border-radius: 8px;
+}
+  
+.pagina-lista-usuarios .container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #e10600;
+}
+  
+.pagina-lista-usuarios .container .link-voltar {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pagina-lista-usuarios .container .link-inicio {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
